@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/deep_blue">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/desti_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/eulyoo1945regular"
+        app:layout_constraintTop_toBottomOf="@+id/photo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor= "@color/white"
+        android:gravity="center"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desti_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:paddingBottom="17dp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:textColor="@color/grey"
+        app:layout_constraintTop_toBottomOf="@+id/desti_name"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textSize="18dp"
+        android:maxLines="1"
+        android:fontFamily="@font/ridibatang"
+        />
+
+
+    <!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:elevation="3dp"-->
+<!--        card_view:cardBackgroundColor="@color/teal_700"-->
+<!--        card_view:cardCornerRadius="2dp">-->
+
+<!--        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/photo"-->
+<!--                android:layout_width="230dp"-->
+<!--                android:layout_height="200dp"-->
+<!--                android:background="?attr/selectableItemBackgroundBorderless"-->
+<!--                android:scaleType="fitXY"-->
+<!--                card_view:layout_constraintRight_toRightOf="parent"-->
+<!--                card_view:layout_constraintLeft_toLeftOf="parent"-->
+<!--                card_view:layout_constraintTop_toTopOf="parent"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/desti_name"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                card_view:layout_constraintTop_toBottomOf="@+id/photo"                android:paddingLeft="10dp"-->
+<!--                android:layout_marginTop="15dp"-->
+<!--                android:paddingTop="10dp"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:paddingBottom="10dp"-->
+<!--                android:textColor= "@color/white"-->
+<!--                android:textSize="22dp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/desti_sub"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                card_view:layout_constraintTop_toBottomOf="@+id/desti_name"-->
+<!--                android:layout_marginTop="13dp"-->
+<!--                android:textColor="@color/grey"-->
+<!--                android:paddingBottom="5dp"-->
+<!--                android:paddingLeft="10dp"-->
+<!--                android:paddingRight="10dp"-->
+<!--                android:paddingTop="5dp"-->
+<!--                android:textSize="15dp"/>-->
+
+
+<!--        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
